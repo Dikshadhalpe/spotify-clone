@@ -13,10 +13,11 @@
 }
 
 .sidebar {
-    background-color: yellow;
+    background-color: #000;
     width: 340px;
     border-radius: 1rem;
     /* 1 remm =16px*/
+    margin-right: 0.5rem;
 }
 
 .maincontent {
@@ -56,6 +57,8 @@
     line-height: 2.5rem;
     opacity: 0.7;
     padding: 0.5rem 0.75rem;
+    background-color: #121212;
+
 }
 
 .nav-option:hover {
@@ -66,20 +69,22 @@
 .nav-option i {
     font-size: 1.25rem;
     opacity: 0.7;
+    background-color: #121212;
 }
 
 .nav-option a {
     text-decoration: none;
     font-size: 1rem;
     margin-left: 1rem;
+    background-color: #121212;
 }
 
 .library {
     background-color: #121212;
     border-radius: 1rem;
     height: 100%;
-    margin: 0.5rem;
-    padding: 0.5rem 0.75rem;
+    margin-top: 0.25rem;
+    padding: 0.25rem 0.75rem;
 
 }
 
@@ -112,23 +117,25 @@
 }
 
 .box {
-    /* text-decoration: none; */
+    text-decoration: none;
     background-color: #121213;
     height: 8rem;
     border-radius: 0.75rem;
-    margin: 0.5rem 0 0.5rem 0;
-    padding: 0.75rem 1.25rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.5rem 1rem;
 
 }
 
 .box-p1 {
     font-size: 1rem;
     line-height: 3rem;
+    background-color: #121212;
     font-weight: 500;
 }
 
 .box-p2 {
     font-size: 0.75rem;
+    background-color: #121212;
     opacity: 0.6;
 }
 
@@ -141,9 +148,10 @@
     border-radius: 100px;
     padding: 0.25rem 1rem;
     color: #000;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 0.5rem;
-    font-size: 0.58rem;
+    font-size: 0.85rem;
     height: 2rem;
     width: fit-content;
+
 }
