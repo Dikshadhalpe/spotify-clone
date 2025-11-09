@@ -92,11 +92,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #121212;
 }
 
 .lib-option img {
     height: 1.25rem;
     width: 1.25rem;
+    background-color: #121212;
 }
 
 .icons {
@@ -104,6 +106,7 @@
     opacity: 0.7;
     margin-right: 1rem;
     display: flex;
+    background-color: #121212;
 }
 
 .icons i {
@@ -118,7 +121,7 @@
 
 .box {
     text-decoration: none;
-    background-color: #121213;
+    background-color: #121215;
     height: 8rem;
     border-radius: 0.75rem;
     margin: 0.75rem 0 1.75rem 0;
@@ -140,18 +143,55 @@
 }
 
 
-
-
 .badge {
     background-color: white;
     border: none;
     border-radius: 100px;
     padding: 0.25rem 1rem;
-    color: #000;
+    color: #121212;
     font-weight: 700;
     margin-top: 0.5rem;
     font-size: 0.85rem;
     height: 2rem;
     width: fit-content;
 
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0%;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons img {
+    height: 1.5rem;
+    margin-left: 0.75rem;
+    background-color: #121212;
+
+}
+
+.sticky-nav-op {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+
+.nav-items {
+    margin-right: 1rem;
+}
+
+.dark-badge {
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width:1000px) {
+    .hide-items {
+        display: none;
+    }
 }
