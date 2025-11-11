@@ -347,3 +347,41 @@
     height: 5px;
     border-radius: 5px;
 }
+
+.album {
+    display: flex;
+}
+
+.album-text {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.album-song {
+    display: flex;
+    height: 4rem;
+    margin-top: 0.3rem;
+    border-radius: 10%;
+}
+
+.album-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.album-info {
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.like {
+    display: flex;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    opacity: 0.7;
+}
+
+.like:hover {
+    opacity: 1;
+}
